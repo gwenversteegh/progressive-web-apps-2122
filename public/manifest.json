@@ -1,0 +1,29 @@
+{
+
+    "name": "citas-para-ti",
+    "icons": [
+      {
+        "src": "/img/icons8-downloading-updates-90.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/icons8-settings-240.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/icons8-home-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "rgb(25, 3, 59)",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "rgb(25, 3, 59)",
+   
+    "description": "quotes for you"
+    
+  }

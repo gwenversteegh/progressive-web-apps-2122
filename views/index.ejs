@@ -1,5 +1,26 @@
 <%- include('./partials/head') %>
 
-Hallo wereld!
+<header>  </header>
+
+<main>
+
+    <button id="button"> show random quote </button>
+    <ul>
+        <% data.forEach(function(quote) { %>
+                
+            <li>
+                <img src='<%- quote.avatar %>' alt='profielfoto' onerror="this.src='./img/vervanging.jpg'" >
+                <h2><%- quote.name %></h2>
+                <p><%- quote.text %></p>
+            </li>
+
+
+
+         <% }) %>
+    </ul>
+
+    <ul id="quoterandom" >
+
+    </ul>
 
 <%- include('./partials/foot') %>
