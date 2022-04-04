@@ -8,7 +8,7 @@
     <ul>
         <% data.forEach(function(quote) { %>
                 
-            <li>
+            <li id='<%- quote.quoteId %>'>
                 <img src='<%- quote.avatar %>' alt='profielfoto' onerror="this.src='./img/vervanging.jpg'" >
                 <h2><%- quote.name %></h2>
                 <p><%- quote.text %></p>

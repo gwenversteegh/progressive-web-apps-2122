@@ -43,8 +43,8 @@ const server = app.listen(app.get('port'), function () {
 
 
 function renderOffline (req, res){
-res.render('offline', {
-pageTitle: "Offline"
+  res.render('offline', {
+    pageTitle: "Offline"
   })
 }
 /**
