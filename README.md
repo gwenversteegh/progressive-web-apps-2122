@@ -1,8 +1,6 @@
 # citas para ti!
 
 
-### link to my github pages:
-
 ## about
 
 > Citas para ti is a single page webapp with inspirational webapp quotes for students who need a little extra motivation when they have a deadline or when they don't have inspiration for a project.
@@ -12,16 +10,6 @@
 
 
 ## Features
-
-### Loadingstate
-> When your internet is slow the page will load slowly. To make sure that the user knows that the quotes are on the way, I created a loading state where there will be explained that the user needs to be patience and that the quotes are comming. 
-
-<img width="500" alt="Screenshot 2022-03-08 at 15 53 14" src="https://user-images.githubusercontent.com/70900763/157262952-a6c47f90-b542-4670-a613-009d9dada2c0.png">
-
-### Errorstate
-> The error state appears when there goes something wrong with the input data from the API. You will be informed that there is an error and you will be asked to reload the page.
-
-<img width="500" alt="Screenshot 2022-03-08 at 15 53 36" src="https://user-images.githubusercontent.com/70900763/157262993-d6c7c855-b735-40a5-860f-da0018e17cd4.png">
 
 ### Random Quote
 > Maybe you don't have time to scroll trough all the quotes or you just want the computer to decide for you. If this is the case you can click on show random quote. When you click on this button 
@@ -45,7 +33,3 @@ https://quote.api.fdnd.nl/v1/quote
 
 In this API there are inspirational quotes about webdesign. When there are new quotes added they will appear in the single page webapp.
 
-
-## Future plans
-- [x] Random quote option
-- [ ] Filter option
