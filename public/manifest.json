@@ -10,12 +10,7 @@
       {
         "src": "/img/icons8-settings-240.png",
         "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/img/icons8-home-192.png",
-        "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "512x512"
       }
     ],
     "start_url": "/",

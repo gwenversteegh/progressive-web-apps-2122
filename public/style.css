@@ -39,7 +39,7 @@ button {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:white;
     text-shadow: 2px 2px 10px rgb(25, 3, 59);
-    background-color: rgb(184, 184, 248);
+    background-color: rgb(25, 3, 59);
     box-shadow:2px 2px 10px rgb(25, 3, 59) ;
     cursor: pointer;
 }
@@ -97,21 +97,18 @@ main ul li p {
     color: white;
     padding-right:5vw;
     padding-left:5vw;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     width: 100vw;
-
 }
 
 main ul li img {
-    width: 30vmin;
-    height: auto;
+    width: 20vmin;
+    height: 30vmin;
     object-fit:cover;
     padding-right: 0.5em;
     padding-bottom: 2em;
-    filter: grayscale(100%);
-    border-radius: 5em;
-
+    padding-top: 3em;
 }
 
 

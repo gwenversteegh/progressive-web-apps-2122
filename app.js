@@ -4,6 +4,10 @@ const express = require('express')
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
 
 const app = express()
+const minify = require('express-minify');
+
+const compression = require('compression')
+
 
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')
@@ -12,6 +16,9 @@ app.set('port', process.env.PORT || 8000)
 
 // Stel een static map in
 app.use(express.static('public'))
+app.use(compression())
+app.use (minify());
+
 
 // Maak een route voor de index
 app.get("/", renderPagina)
