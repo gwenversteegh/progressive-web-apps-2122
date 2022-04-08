@@ -25,6 +25,22 @@ Maybe you don't have time to scroll trough all the quotes or you just want the c
 ### Service worker
 <img width="454" alt="Screenshot 2022-04-08 at 10 13 36" src="https://user-images.githubusercontent.com/70900763/162394359-9d0c8133-cb11-444d-be0c-08e0be6f639a.png">
 
+## Optimalisation
+### phone
+
+<img width="438" alt="Screenshot 2022-04-08 at 14 12 57" src="https://user-images.githubusercontent.com/70900763/162433370-235426a8-5a9a-4889-9674-fa7f2a175dbe.png">
+### laptop
+
+<img width="430" alt="Screenshot 2022-04-08 at 14 15 33" src="https://user-images.githubusercontent.com/70900763/162433665-ab18d479-c81e-433e-9404-0e0ee0a553a4.png">
+
+<img width="773" alt="Screenshot 2022-04-08 at 14 14 36" src="https://user-images.githubusercontent.com/70900763/162433546-c3054b2f-1fe3-43b3-a12d-9565849c7022.png">
+
+> The performance is not 100% on a phone because of the image size. The images are too big and I can't make them smaller because the API does not support this. The problem is that the API used links from other sites and we didn't get the permission to change the API. 
+
+### things I used
+- Compression package
+- Express-minify package
+- Meta tags for the SEO
 
 
 ## How to install
