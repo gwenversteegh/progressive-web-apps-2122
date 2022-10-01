@@ -24,5 +24,14 @@
   },
   "devDependencies": {
     "node-dev": "^7.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwenversteegh/progressive-web-apps-2122.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gwenversteegh/progressive-web-apps-2122/issues"
+  },
+  "homepage": "https://github.com/gwenversteegh/progressive-web-apps-2122#readme"
 }
