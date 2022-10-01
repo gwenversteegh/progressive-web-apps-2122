@@ -15,6 +15,8 @@
     "express": "^4.17.3",
     "express-minify": "^1.0.0",
     "fetch": "^1.1.0",
+    "git": "^0.1.5",
+    "heroku": "^7.63.4",
     "node": "^17.7.1",
     "node-fetch": "^3.2.3"
   },
