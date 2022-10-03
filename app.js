@@ -6,9 +6,9 @@ const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fet
 const app = express()
 const minify = require('express-minify');
 
-const compression = require('compression')
+const compression = require('compression');
 
-.get('/times', (req, res) => res.send(showTimes()))
+get('/times', (req, res) => res.send(showTimes()))
 
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')
