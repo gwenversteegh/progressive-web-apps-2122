@@ -8,7 +8,6 @@ const minify = require('express-minify');
 
 const compression = require('compression');
 
-app.get('/times', (req, res) => res.send(showTimes()))
 
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')
@@ -24,6 +23,8 @@ app.use (minify());
 // Maak een route voor de index
 app.get("/", renderPagina)
 app.get("/offline", renderOffline)
+
+.get('/times', (req, res) => res.send(showTimes()))
 
 
 
