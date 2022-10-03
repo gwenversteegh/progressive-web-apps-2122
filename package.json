@@ -21,7 +21,6 @@
     "git": "^0.1.5",
     "heroku": "^7.63.4",
     "login": "^0.8.0",
-    "node": "^17.7.1",
     "node-fetch": "^3.2.3"
   },
   "devDependencies": {
