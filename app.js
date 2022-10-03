@@ -13,7 +13,7 @@ app.get('/times', (req, res) => res.send(showTimes()))
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')
 app.set('views', './views');
-app.set('port', process.env.PORT || 8000)
+app.set('port', process.env.PORT || 5000)
 
 // Stel een static map in
 app.use(express.static('public'))
@@ -45,7 +45,7 @@ function renderPagina (req, res){
 }
 
 
-const server = app.listen(app.get('8000'), function () {
+const server = app.listen(app.get('5000'), function () {
   console.log(`Application started on port: ${app.get('port')}`)
 })
 
