@@ -5,7 +5,7 @@ const quotes = ['#1', '#2', '#3', '#4', '#5', '#6', '#7', '#8', '#9', '#10']
 
 function showRandomQuote() {
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-    var base_url = 'http://localhost:8000/';
+    var base_url = 'https://citas-para-ti.herokuapp.com/';
     
     window.location.href = base_url + randomQuote
 }
