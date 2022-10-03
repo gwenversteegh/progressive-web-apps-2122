@@ -8,6 +8,7 @@ const minify = require('express-minify');
 
 const compression = require('compression')
 
+.get('/times', (req, res) => res.send(showTimes()))
 
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')
@@ -64,4 +65,13 @@ function renderOffline (req, res){
     .then((response) => response.json())
     .then((body) => body.data)
     .catch((error) => error)
+}
+
+showTimes = () => {
+  let result = '';
+  const times = process.env.TIMES || 5;
+  for (i = 0; i < times; i++) {
+    result += i + ' ';
+  }
+  return result;
 }
