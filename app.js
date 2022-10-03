@@ -25,7 +25,7 @@ app.use (minify());
 app.get("/", renderPagina)
 app.get("/offline", renderOffline)
 
-.get('/times', (req, res) => res.send(showTimes()))
+// .get('/times', (req, res) => res.send(showTimes()))
 
 
 
@@ -70,11 +70,11 @@ function renderOffline (req, res){
     .catch((error) => error)
 }
 
-showTimes = () => {
-  let result = '';
-  const times = process.env.TIMES || 5;
-  for (i = 0; i < times; i++) {
-    result += i + ' ';
-  }
-  return result;
-}
+// showTimes = () => {
+//   let result = '';
+//   const times = process.env.TIMES || 5;
+//   for (i = 0; i < times; i++) {
+//     result += i + ' ';
+//   }
+//   return result;
+// }
