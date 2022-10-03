@@ -8,7 +8,7 @@ const minify = require('express-minify');
 
 const compression = require('compression');
 
-get('/times', (req, res) => res.send(showTimes()))
+app.get('/times', (req, res) => res.send(showTimes()))
 
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')
