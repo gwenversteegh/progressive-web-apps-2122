@@ -46,8 +46,12 @@ To check the optimalisation from your website, you can use lighthouse, which is 
 > The performance is not 100% on a phone because of the image size. The images are too big and I can't make them smaller because the API does not support this. The problem is that the API used links from other sites and we didn't get the permission to change the API. 
 
 ### things I used
-- Compression package
-- Express-minify package
+- Compression package --> Compression in Node.js and Express decreases the downloadable amount of data that’s served to users. Through the use of this compression, we can improve the performance of our Node.js applications as our payload size is reduced drastically.
+https://www.digitalocean.com/community/tutorials/nodejs-compression
+
+- Express-minify package --> Automatically minify (and cache) your JavaScript, CSS and JSON responses without pain. It also supports LESS/SASS/Stylus/CoffeeScript compiling and minifying. 
+https://www.npmjs.com/package/express-minify
+
 - Meta tags for the SEO
 
 
