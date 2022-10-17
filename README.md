@@ -24,6 +24,11 @@ Maybe you don't have time to scroll trough all the quotes or you just want the c
 
 
 ### Service worker
+
+The service worker checks if the user has an internet connection. When a request is made, the service worker stores the 'CORE_ASSETS' in the browser's cache memory 'v3'. The CORE_ASSETS contains the offline page and the styling file. This allows the service worker to still show the offline page with associated styling when there is no internet connection. 
+
+When there is internet connection, the service worker caches the rendered content in 'html cache'. If the user later returns to de SPA without internet, he can see still the pages he has already visited.
+
 <img width="454" alt="Screenshot 2022-04-08 at 10 13 36" src="https://user-images.githubusercontent.com/70900763/162394359-9d0c8133-cb11-444d-be0c-08e0be6f639a.png">
 
 ## Optimalisation
@@ -42,6 +47,18 @@ Maybe you don't have time to scroll trough all the quotes or you just want the c
 - Compression package
 - Express-minify package
 - Meta tags for the SEO
+
+
+## Client side vs server side rendering
+
+<img width="571" alt="Screenshot 2022-10-17 at 11 12 20" src="https://user-images.githubusercontent.com/70900763/196138425-f7f6151e-e303-4a68-afe7-4acacdcbf724.png">
+
+### Client side
+With client side rendering, most content is rendered in the client's browser. The user receives an (almost) empty web page. This page is filled with content that renders with client-side javascript. If the user has a bad internet connection, it can take a very long time for all content to load. This is a major disadvantage of client side rendering.
+
+
+### Server side
+With server side rendering, all rendering is done on the server. An advantage of server side rendering is that the user does not have to look long at a (half) empty page if the internet connection is not really fast. With server side rendering, the user receives the HTML-page from the server when it is completely filled with all fetched data from databases and/or APIs. Servers are super fast, so that will happen in milliseconds.
 
 
 ## How to install
