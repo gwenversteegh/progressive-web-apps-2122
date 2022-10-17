@@ -32,6 +32,8 @@ When there is internet connection, the service worker caches the rendered conten
 <img width="454" alt="Screenshot 2022-04-08 at 10 13 36" src="https://user-images.githubusercontent.com/70900763/162394359-9d0c8133-cb11-444d-be0c-08e0be6f639a.png">
 
 ## Optimalisation
+
+To check the optimalisation from your website, you can use lighthouse, which is implemented in the chrome browser. It makes a report of your website and gives you tips to optimize it on different topics: SEO, accessability, best practices and performance. 
 ### phone
 
 <img width="438" alt="Screenshot 2022-04-08 at 14 12 57" src="https://user-images.githubusercontent.com/70900763/162433370-235426a8-5a9a-4889-9674-fa7f2a175dbe.png">
